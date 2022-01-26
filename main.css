@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* navigation section */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+   
+}
+.background{
+    background: black;
+    background-size: cover;
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 25px 30px;
+    font-size: 20px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: rgb(252, 44, 44);
+}
+.rightnav{
+    width: 30%;
+    text-align: right;
+    font-size: 15px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+/* about section */
+section{
+    background-color: rgb(240, 17, 17);
+    height:400px;
+    width: 100%;
+    clear: both;
+}
+#about{
+    
+    text-align: center;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+}
+.firsthalf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-big{
+    font-family: cursive sans-serif serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    margin-top: 5px;
+}
+.small{
+    font-size: 18px;
+}
+ /* CSS property for courses*/
+ article{
+    height:420px;
+    margin-top: 0%;
+    clear: both;
+ }
+ #courses{
+    background-color: rgb(45, 130, 133);
+   text-align: center;
+
+    }
+ .row{
+    
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+ }
+ .text{
+    font-family: cursive sans-serif serif;
+    font-weight: bold;
+    font-size: 35px;
+    color:white;
+    text-align: center;
+
+}
+ .columnA, .columnB, .columnC {
+    float: left;
+    width: 31%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+}
+h2 {
+    color:black;
+    text-align:center;
+}
+/* contact section */
+section1{
+    clear: both;
+}
+
+#contact{
+   background-color: rgb(39, 133, 52);
+    height:300px;
+    color: white;
+    width: 100%;
+ 
+}
+.cont{
+     
+
+   text-align: center;
+    color: black;
+    margin:auto;
+   
+}
+.para{
+    font-size: 20px;
+    color: black;
+}
+.heading{
+    font-family: 'piazzolla',serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+
+}
+/* Footer section */
+footer
+{
+    clear: both;
+    width:100%;
+    height:250px;
+}
+
+
+#login
+{
+    background-color: rgb(133, 76, 30);
+    
+    color:black;
+    
+    text-align: center;
+}
+
+   
+    
+.log{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+h1{
+    color: white;
+}
+.submit{
+    background-color:black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 10%;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
